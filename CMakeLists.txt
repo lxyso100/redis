@@ -7,6 +7,7 @@ get_filename_component(REDIS_ROOT "${CMAKE_CURRENT_SOURCE_DIR}" ABSOLUTE)
 add_subdirectory(deps)
 add_subdirectory(src/modules)
 #        src/ae_select.c #Linux
+#        src/ae_epoll.c #Linux
 #        src/ae_kqueue.c #mac
 set(SRC_SERVER_TMP
         src/adlist.c
