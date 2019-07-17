@@ -91,9 +91,11 @@ set(SRC_CLI
         src/release.c
         src/anet.c
         src/ae.c
+        src/crc16.c
         src/crc64.c
+        src/dict.c
+        src/siphash.c
         )
-
 
 set(EXECUTABLE_OUTPUT_PATH src)
 link_directories(deps/linenoise/ deps/lua/src deps/hiredis)
