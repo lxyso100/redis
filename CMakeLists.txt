@@ -13,7 +13,7 @@ set(SRC_SERVER_TMP
         src/adlist.c
         src/ae.c
         src/anet.c
-        src/ae_epoll.c
+        #src/ae_epoll.c
         src/dict.c
         src/sds.c
         src/zmalloc.c
